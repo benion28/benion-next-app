@@ -1,0 +1,19 @@
+https://daisyui.com
+
+npm i -D daisyui@latest
+
+module.exports = {
+  //...
+  plugins: [
+    require('daisyui'),
+  ],
+}
+
+module.exports = {
+  //...
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
+}
+
+<html data-theme="cupcake"></html>
